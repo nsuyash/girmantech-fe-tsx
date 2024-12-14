@@ -1,0 +1,128 @@
+body {
+  min-width: 360px;
+  margin: 0;
+  height: 100%; 
+  background: linear-gradient(to bottom, white, #b0bcc9);
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 100%;
+}
+
+
+.nav-list{
+  list-style: none;
+  position: absolute;
+  right: 5rem;
+}
+
+.nav-item{
+  padding: 0px 15px;
+}
+
+.nav-item:hover .nav-link{
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+  color: rgb(56, 56, 223);
+  text-decoration: underline;
+}
+
+.company-logo-img{
+  margin-top: 5rem;
+}
+
+.input-group{
+  padding: 0px 8px;
+}
+
+@media (max-width: 600px) {
+  .company-logo-img-input {
+    padding: 0px 10px;
+  }
+}
+
+.container-center-row {
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  padding: 10px 10px;  
+  width: 280px;
+  max-width: 320px;
+}
+
+.user-card-container {
+  padding: 40px 0px;
+  display: flex; 
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+@media (max-width: 770px) {
+  .card {
+    width: 95%; 
+    max-width: 95%;
+    padding: 10px;
+    margin: 0px 20px;
+  }
+}
+
+.img-rounded{
+  border-radius: 200px;
+  border: 2px solid black;
+  padding: 5px;
+  width: 60px;
+  position: relative;
+}
+
+
+.contact-container {
+  display: flex;
+  justify-content: space-between; /* Aligns items horizontally */
+  align-items: center; /* Aligns items vertically */
+  gap: 5px; 
+}
+
+.contact-container p{
+  font-size: 15px;
+}
+
+.contact-container button{
+  font-size: 12px;
+}
+
+
+.contact-container i {
+  margin-right: 5px; /* Adds spacing between the icon and text */
+}
+
+.contact-logo-border{
+  border: 1px solid black;
+  padding: 10px 12.5px;
+  border-radius: 30px;
+  margin: 0px 10px;
+  font-size: 15px;
+}
+
+.col-md-4{
+  padding: 0px;
+}
+
+.card{
+  margin: 10px 0px;
+  gap: 20px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap;
+  padding: 20px; 
+}
