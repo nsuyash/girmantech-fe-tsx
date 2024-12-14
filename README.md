@@ -30,5 +30,5 @@ I explored TypeScript basics for this project, building it with React TypeScript
 
 ## Contact
 
-For any inquiries or issues, please contact Suyash Nandurkar at suyashnandurkar53@.com\
+For any inquiries or issues, please contact Suyash Nandurkar at suyashnandurkar53@gmail.com\
 Contact at +91 9834143191
